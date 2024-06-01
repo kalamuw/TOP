@@ -1,13 +1,12 @@
 body {
   background-color: #5c824a;
+  padding: 20px 300px;
 }
 
 nav {
-  padding: 20px 0px;
   display: flex;
   font-family: sans-serif;
   align-items: center;
-  justify-content: center;
 }
 nav div {
   display: flex;
@@ -29,4 +28,23 @@ nav .navbar-logo {
 nav .navbar-logo img {
   height: 25px;
   width: 25px;
+}
+nav .navbar-list {
+  margin-left: 300px;
+}
+nav .navbar-list ul li a {
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+}
+nav .navbar-btn {
+  margin-left: 50px;
+}
+nav .navbar-btn button {
+  border-radius: 50px;
+  padding: 15px 40px;
+  color: #fff;
+  font-size: 19px;
+  border: solid 2px #fff;
+  background-color: #5c824a;
 }/*# sourceMappingURL=style.css.map */
