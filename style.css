@@ -1,0 +1,32 @@
+body {
+  background-color: #5c824a;
+}
+
+nav {
+  padding: 20px 0px;
+  display: flex;
+  font-family: sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+nav div {
+  display: flex;
+}
+nav div ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+nav div ul a {
+  text-decoration: none;
+}
+nav .navbar-logo {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+nav .navbar-logo img {
+  height: 25px;
+  width: 25px;
+}/*# sourceMappingURL=style.css.map */
